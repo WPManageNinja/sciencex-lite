@@ -1,0 +1,741 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sciencexlite 1.0.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/sciencexlite\n"
+"POT-Creation-Date: 2018-07-11 06:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:23
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:37
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: 404.php:57
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: archive.php:28
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:31
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:31
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:34
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: archive.php:34
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: archive.php:36
+msgid "Archives"
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:34
+#, php-format
+msgid "One Comment on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:40
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Comments on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:63
+msgid "Comments are closed."
+msgstr ""
+
+#. %s: CMS name, i.e. Sciencex Lite.
+#: footer.php:40
+#, php-format
+msgid "Copyright &copy; 2018 %s"
+msgstr ""
+
+#. 1: Theme name, 2: Theme author.
+#: footer.php:50
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: functions.php:58
+msgid "Primary"
+msgstr ""
+
+#: functions.php:125
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:127
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:137 inc/customizer.php:660
+msgid "Footer Widgets"
+msgstr ""
+
+#: functions.php:139
+msgid "Add footer widgets here."
+msgstr ""
+
+#. Translators: If there are characters in your language that are not supported
+#. by Mina, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:162
+msgctxt "Mina font: on or off"
+msgid "on"
+msgstr ""
+
+#. Translators: If there are characters in your language that are not supported
+#. by Slabo 27px, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:168
+msgctxt "Slabo 27px font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:276
+msgid "Search"
+msgstr ""
+
+#: functions.php:337
+msgid "Leave a Reply"
+msgstr ""
+
+#: functions.php:342
+msgid "Comment"
+msgstr ""
+
+#: functions.php:344
+msgid "Type your comment..."
+msgstr ""
+
+#: functions.php:360
+msgid "Name"
+msgstr ""
+
+#: functions.php:363
+msgid "Your Name"
+msgstr ""
+
+#: functions.php:367
+msgid "Email"
+msgstr ""
+
+#: functions.php:369
+msgid "Your Email"
+msgstr ""
+
+#: header.php:50
+msgid "Toggle navigation"
+msgstr ""
+
+#: index.php:31
+msgid "Blog"
+msgstr ""
+
+#: search.php:27
+#, php-format
+msgid "Search Results for: &ldquo;%s&rdquo;"
+msgstr ""
+
+#: single.php:27
+msgid "Previous post"
+msgstr ""
+
+#: single.php:28
+msgid "Next post"
+msgstr ""
+
+#: inc/customizer.php:35
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer.php:42
+msgid "General Settings"
+msgstr ""
+
+#: inc/customizer.php:55
+msgid "Page Wrapper Padding Top"
+msgstr ""
+
+#: inc/customizer.php:74
+msgid "Page Wrapper Padding Bottom"
+msgstr ""
+
+#: inc/customizer.php:94
+msgid "Active/Deactivate Website Boxed Layout?"
+msgstr ""
+
+#: inc/customizer.php:109
+msgid "Show/hide your website preloader?"
+msgstr ""
+
+#: inc/customizer.php:123
+msgid "Active/Deactivate your website sticky menu?"
+msgstr ""
+
+#: inc/customizer.php:132
+msgid "Logo Settings"
+msgstr ""
+
+#: inc/customizer.php:135
+msgid ""
+"To upload custom logo image - go to Appearance > Customize > Site Identity"
+msgstr ""
+
+#: inc/customizer.php:145
+msgid "Logo Width (px) "
+msgstr ""
+
+#: inc/customizer.php:157
+msgid "Logo Height (px) "
+msgstr ""
+
+#: inc/customizer.php:170
+msgid "Site Title Uppercase"
+msgstr ""
+
+#: inc/customizer.php:184
+msgid "Site Title Text color"
+msgstr ""
+
+#: inc/customizer.php:197
+msgid "Site Title Font Size (px) "
+msgstr ""
+
+#: inc/customizer.php:210
+msgid "Site Title Font Weight "
+msgstr ""
+
+#: inc/customizer.php:223
+msgid "Show/Hide Site Tagline"
+msgstr ""
+
+#: inc/customizer.php:237
+msgid "Site Tagline Uppercase?"
+msgstr ""
+
+#: inc/customizer.php:251
+msgid "Tagline Font Size (px) "
+msgstr ""
+
+#: inc/customizer.php:264
+msgid "Tagline Text color"
+msgstr ""
+
+#: inc/customizer.php:272
+msgid "Main Menu Settings"
+msgstr ""
+
+#: inc/customizer.php:285
+msgid "Button Title"
+msgstr ""
+
+#: inc/customizer.php:298
+msgid "Button Link"
+msgstr ""
+
+#: inc/customizer.php:312
+msgid "Main Menu Background color"
+msgstr ""
+
+#: inc/customizer.php:326
+msgid "Main Menu Text color"
+msgstr ""
+
+#: inc/customizer.php:340
+msgid "Main Menu Text Hover color"
+msgstr ""
+
+#: inc/customizer.php:349 inc/admin/sciencexlite-admin-page.php:199
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/customizer.php:361
+msgid "Show/Hide Footer Widgets Section?"
+msgstr ""
+
+#: inc/customizer.php:374
+msgid "Show/Hide Copyright Section"
+msgstr ""
+
+#: inc/customizer.php:388
+msgid "Copyright Section Background color"
+msgstr ""
+
+#: inc/customizer.php:401
+msgid "Copyright Text color"
+msgstr ""
+
+#: inc/customizer.php:415
+msgid "Copyright Text Link color"
+msgstr ""
+
+#: inc/customizer.php:422
+msgid "Banner Settings"
+msgstr ""
+
+#: inc/customizer.php:435
+msgid "Show/Hide Site Banner?"
+msgstr ""
+
+#: inc/customizer.php:449 inc/customizer.php:462
+msgid "Banner Background Color"
+msgstr ""
+
+#: inc/customizer.php:470
+msgid "Blog Settings"
+msgstr ""
+
+#: inc/customizer.php:483
+msgid "Title Text"
+msgstr ""
+
+#: inc/customizer.php:495
+msgid "Blog Sidebar Layout"
+msgstr ""
+
+#: inc/customizer.php:500 inc/customizer.php:859
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/customizer.php:501 inc/customizer.php:860
+msgid "Blog With Right Sidebar"
+msgstr ""
+
+#: inc/customizer.php:502 inc/customizer.php:861
+msgid "Blog With Left Sidebar"
+msgstr ""
+
+#: inc/customizer.php:513
+msgid "Show/Hide Featured Image On Blog Post"
+msgstr ""
+
+#: inc/customizer.php:527
+msgid "Show/Hide Post Header Meta On Blog Post"
+msgstr ""
+
+#: inc/customizer.php:540
+msgid "Show/Hide Blog Category On Blog Post"
+msgstr ""
+
+#: inc/customizer.php:553
+msgid "Show/Hide Blog Read More Button"
+msgstr ""
+
+#: inc/customizer.php:568
+msgid "Link Text"
+msgstr ""
+
+#: inc/customizer.php:581
+msgid "Blog Content Length"
+msgstr ""
+
+#: inc/customizer.php:600
+msgid "Show/Hide Featured Image On Single Blog Post"
+msgstr ""
+
+#: inc/customizer.php:613
+msgid "Show/Hide Meta Single Blog Post"
+msgstr ""
+
+#: inc/customizer.php:626
+msgid "Show/Hide Footer On Single Blog Post"
+msgstr ""
+
+#: inc/customizer.php:638
+msgid "Get ScienceX PRO WP Theme for only"
+msgstr ""
+
+#: inc/customizer.php:643
+msgid "Live Demo"
+msgstr ""
+
+#: inc/customizer.php:646
+msgid "Get ScienceX PRO"
+msgstr ""
+
+#: inc/customizer.php:650
+msgid "Advanced Theme Options"
+msgstr ""
+
+#: inc/customizer.php:651 inc/admin/sciencexlite-admin-page.php:276
+msgid "Drag and Drop Page Builder"
+msgstr ""
+
+#: inc/customizer.php:652 inc/admin/sciencexlite-admin-page.php:270
+msgid "Theme Features Core Plugin"
+msgstr ""
+
+#: inc/customizer.php:653 inc/admin/sciencexlite-admin-page.php:209
+msgid "Upload Your Own Logo"
+msgstr ""
+
+#: inc/customizer.php:654 inc/admin/sciencexlite-admin-page.php:288
+msgid "850+ Google Fonts"
+msgstr ""
+
+#: inc/customizer.php:655
+msgid "Unlimited Colors and Skin"
+msgstr ""
+
+#: inc/customizer.php:656 inc/admin/sciencexlite-admin-page.php:264
+msgid "One Click Demo Import"
+msgstr ""
+
+#: inc/customizer.php:657 inc/customizer.php:664
+msgid "4 Exclusive Widgets"
+msgstr ""
+
+#: inc/customizer.php:658
+msgid "Custom Slider"
+msgstr ""
+
+#: inc/customizer.php:659
+msgid "Shop Page"
+msgstr ""
+
+#: inc/customizer.php:661
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/customizer.php:662
+msgid "Stick menu"
+msgstr ""
+
+#: inc/customizer.php:663 inc/admin/sciencexlite-admin-page.php:294
+msgid "18+ Shortcodes/Addons"
+msgstr ""
+
+#: inc/customizer.php:665 inc/admin/sciencexlite-admin-page.php:239
+msgid "Background image/video"
+msgstr ""
+
+#: inc/customizer.php:666 inc/admin/sciencexlite-admin-page.php:234
+msgid "Parallax effect"
+msgstr ""
+
+#: inc/customizer.php:667 inc/admin/sciencexlite-admin-page.php:282
+msgid "Documentation"
+msgstr ""
+
+#: inc/customizer.php:668
+msgid "And much more..."
+msgstr ""
+
+#: inc/customizer.php:674
+msgid "More features? Upgrade to PRO"
+msgstr ""
+
+#: inc/global-functions.php:30
+msgid "Create A Menu"
+msgstr ""
+
+#: inc/global-functions.php:36
+msgid "Home"
+msgstr ""
+
+#: inc/global-functions.php:63
+msgid "Prev"
+msgstr ""
+
+#: inc/global-functions.php:64
+msgid "Next"
+msgstr ""
+
+#. translators: %s: post date.
+#: inc/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. translators: %s: post author.
+#: inc/template-tags.php:35
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:52
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:55
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:59
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:62
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:72
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:89
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:25
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:38
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:19 template-parts/content-single.php:43
+#: template-parts/content.php:70
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-single.php:23 template-parts/content.php:35
+msgid "N/A"
+msgstr ""
+
+#: template-parts/content-single.php:23 template-parts/content.php:35
+msgid "1 Comment"
+msgstr ""
+
+#: template-parts/content-single.php:23 template-parts/content.php:35
+msgid "% Comments"
+msgstr ""
+
+#: template-parts/content-single.php:23 template-parts/content.php:35
+msgid "Comments off"
+msgstr ""
+
+#: template-parts/content-single.php:39
+msgid "Tags: "
+msgstr ""
+
+#: inc/admin/sciencexlite-admin-page.php:37
+#: inc/admin/sciencexlite-admin-page.php:124
+msgid "About"
+msgstr ""
+
+#: inc/admin/sciencexlite-admin-page.php:77
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: inc/admin/sciencexlite-admin-page.php:81
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: inc/admin/sciencexlite-admin-page.php:96
+msgid "Welcome to "
+msgstr ""
+
+#: inc/admin/sciencexlite-admin-page.php:97
+msgid "Dismiss"
+msgstr ""
+
+#. 1: start option panel link, 2: end option panel link
+#: inc/admin/sciencexlite-admin-page.php:101
+#, php-format
+msgid ""
+"Thank you for choosing SciencexLite! To fully take advantage of the best our "
+"theme can offer please make sure you visit our %1$swelcome page%2$s."
+msgstr ""
+
+#: inc/admin/sciencexlite-admin-page.php:105
+msgid "Get started with SciencexLite"
+msgstr ""
+
+#: inc/admin/sciencexlite-admin-page.php:137
+msgid "Sciencex Pro"
+msgstr ""
+
+#: inc/admin/sciencexlite-admin-page.php:138
+#: inc/admin/sciencexlite-admin-page.php:325
+msgid "View Live Demo"
+msgstr ""
+
+#: inc/admin/sciencexlite-admin-page.php:139
+msgid "Get PRO"
+msgstr ""
+
+#: inc/admin/sciencexlite-admin-page.php:140
+msgid "Rate this theme"
+msgstr ""
+
+#: inc/admin/sciencexlite-admin-page.php:178
+msgid "LITE"
+msgstr ""
+
+#: inc/admin/sciencexlite-admin-page.php:179
+msgid "PRO"
+msgstr ""
+
+#: inc/admin/sciencexlite-admin-page.php:184
+msgid "Responsive Design"
+msgstr ""
+
+#: inc/admin/sciencexlite-admin-page.php:189
+msgid "Translation Ready"
+msgstr ""
+
+#: inc/admin/sciencexlite-admin-page.php:194
+msgid "Header Seetings"
+msgstr ""
+
+#: inc/admin/sciencexlite-admin-page.php:204
+msgid "Banner & Breadcrumbs"
+msgstr ""
+
+#: inc/admin/sciencexlite-admin-page.php:214
+msgid "Woocommerce Compatible"
+msgstr ""
+
+#: inc/admin/sciencexlite-admin-page.php:219
+msgid "Manage sidebar position"
+msgstr ""
+
+#: inc/admin/sciencexlite-admin-page.php:224
+msgid "Demo Content Ready"
+msgstr ""
+
+#: inc/admin/sciencexlite-admin-page.php:229
+msgid "Custom Widgets"
+msgstr ""
+
+#: inc/admin/sciencexlite-admin-page.php:244
+msgid "Powerful theme options"
+msgstr ""
+
+#: inc/admin/sciencexlite-admin-page.php:249
+msgid "Unlimited Color"
+msgstr ""
+
+#: inc/admin/sciencexlite-admin-page.php:254
+msgid "Sticky Header"
+msgstr ""
+
+#: inc/admin/sciencexlite-admin-page.php:259
+msgid "Footer Copyright & Layout"
+msgstr ""
+
+#: inc/admin/sciencexlite-admin-page.php:300
+msgid "24/7 Support"
+msgstr ""
+
+#: inc/admin/sciencexlite-admin-page.php:306
+msgid "Based on real content"
+msgstr ""
+
+#: inc/admin/sciencexlite-admin-page.php:312
+msgid "Pre Made Pages"
+msgstr ""
+
+#: inc/admin/sciencexlite-admin-page.php:318
+msgid "Pre Made Contact Forms"
+msgstr ""
+
+#: inc/admin/sciencexlite-admin-page.php:326
+msgid "Get Pro"
+msgstr ""
+
+#: inc/admin/sciencexlite-admin-page.php:332
+msgid "PREMADE DEMO"
+msgstr ""
+
+#: inc/upsell/class-customize.php:76
+msgid "Ready for more?"
+msgstr ""
+
+#: inc/upsell/class-customize.php:77
+msgid "Get Sciencex PRO"
+msgstr ""
+
+#. Name of the theme
+msgid "Sciencex Lite"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"ScienceX Lite is a carefully designed education WordPress theme dedicated to "
+"all the Professors and Research groups academic websites. Data-driven "
+"content research by web-development experts on hundreds of actual websites "
+"presented with state-of-the-art web design makes it a MUST if you are "
+"developing a research group or Professor’s website."
+msgstr ""
+
+#. URI of the theme
+msgid "https://wpmanageninja.com/sciencex-wordpress-theme/"
+msgstr ""
+
+#. Author of the theme
+msgid "WpManageNinja"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://wpmanageninja.com/"
+msgstr ""

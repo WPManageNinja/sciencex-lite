@@ -1,0 +1,36 @@
+.sciencexlite-message {
+	overflow: hidden;
+	position: relative;
+	background-color: #ffdffb !important;
+	text-align: center;
+    padding: 25px 10px !important;
+    border: 8px solid #fff !important;
+}
+.sciencexlite-message a.button-primary,
+.sciencexlite-message a.button-secondary {
+	background: #2f2f2c;
+    border-color: #2f2f2c;
+	text-decoration: none !important;
+	height: 50px;
+    line-height: 50px;
+    color: #fff;
+}
+.sciencexlite-message a.sciencexlite-message-close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 10px 15px 10px 21px;
+	font-size: 13px;
+	line-height: 1.23076923;
+	text-decoration: none;
+}
+.sciencexlite-message a.sciencexlite-message-close:before {
+	position: absolute;
+	top: 8px;
+	left: 0;
+	-webkit-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;
+}
+.sciencexlite-message p.submit{
+	text-align: center;
+}

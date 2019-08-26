@@ -1,0 +1,313 @@
+pre.changelog {
+	font-size: 12px;
+	background-color: #f5f5f5;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(50%, #f5f5f5), color-stop(50%, #e6e6e6));
+	background-image: -webkit-linear-gradient(#f5f5f5 50%, #e6e6e6 50%);
+	background-image: linear-gradient(#f5f5f5 50%,#e6e6e6 50%);
+	background-size: 38px 38px;
+	border: 1px solid #d4d4d4;
+	display: block;
+	line-height: 19px;
+	margin-bottom: 10px;
+	overflow: visible;
+	overflow-y: hidden;
+	padding: 0 0 0 4px;
+}
+
+pre.changelog span {
+	font-weight: 700;
+}
+.return-to-dashboard.sciencexlite {
+	clear: both;
+}
+
+p.sciencexlite-actions a.skip {
+	opacity: .5;
+}
+
+.about-wrap .two-col .col {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding: 2em;
+    text-align: center;
+    background: #fff;
+}
+.about-wrap .two-col .col .col-img{
+	display: table-cell;
+	vertical-align: top;
+}
+
+.about-wrap .two-col .col .col-img img{
+	max-width: 150px;
+	padding-right: 50px;
+}
+.about-wrap .two-col .col .col-content h3{
+	margin-top: 0;
+	font-size: 18px;
+	color: #323136;
+}
+.about-wrap .two-col .col .col-content{
+   	display: table-cell;
+	vertical-align: top;
+	width: 10000px;
+	text-align: left;
+}
+.about-wrap .two-col .col .col-content p{
+	font-size: 16px;
+	color: #323136;
+}
+.about-wrap .two-col .col .col-content p a.button{
+	background-color: #2f2f2c;
+	color: #fff;
+	border: none;
+}
+
+@media (max-width: 780px ) {
+	.about-wrap .two-col .col .col-img,
+	.about-wrap .two-col .col .col-content{
+	display: initial;
+	vertical-align: initial;
+	}
+}
+p.sciencexlite-actions span{
+	color: #36a4de;
+	font-size: 30px;
+	display: inline-block;
+}
+.btn-wrapper .button.bg-success,
+.wp-core-ui .bg-success{
+	background-color: #34c761;
+	border-color: #34c761;
+	color: #fff;
+}
+p.sciencexlite-actions a.docs:focus,
+p.sciencexlite-actions a.docs:hover,
+p.sciencexlite-actions a.skip:focus,
+p.sciencexlite-actions a.skip:hover {
+	opacity: 1;
+}
+
+p.sciencexlite-actions a.button-primary,
+p.sciencexlite-actions a.button-secondary {
+	text-decoration: none!important;
+	line-height: 50px;
+    height: 50px;
+    padding: 0 20px;
+    box-shadow: initial;
+    font-size: 15px;
+    margin: 0 5px;
+}
+p.sciencexlite-actions a.button-primary {
+	background-color: #36a4de;
+	border: 1px solid #36a4de;
+	text-shadow: none;
+}
+.sciencexlite-table-wrap{
+	width: calc(74% - 15px);
+	float: left;
+	margin-left: auto;
+    margin-right: auto;
+    margin-right: 15px;
+}
+.sciencexlite-theme-actions{
+	text-align: right;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+td{
+	text-align: center;
+	border-bottom: 1px solid #ededed;
+}
+tr:first-child td h3{
+	padding-right: 20px;
+}
+tr td h3.pro-des{
+	color: #f36341;
+	font-style: italic;
+	padding-right: 20px;
+}
+.sciencexlite-theme-premade-demo{
+	float: right;
+	width: calc(26% - 15px);
+	margin-left: 15px;
+}
+.sciencexlite-theme-premade-demo h3{
+	text-align: center;
+}
+.sciencexlite-theme-premade-demo .col-img a{
+	display: inline-block;
+	outline: none;
+}
+.about-wrap {
+	max-width: 100%;
+}
+
+.about-wrap h1 {
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+	padding-bottom: 20px;
+}
+
+.welcome-description-wrap {
+	display: inline-block;
+	width: 100%;
+	margin: 0 0 10px;
+	border-bottom: 1px solid #d8d8d8;
+}
+.welcome-description-wrap-action{
+	margin-bottom: 40px;
+}
+.about-wrap .about-text {
+	margin: 20px 10px;
+	width: 70%;
+	float: left;
+		font-weight: 500;
+	font-size: 15px;
+}
+.about-wrap .about-text p{
+	text-align: justify;
+}
+.about-description{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 21px !important;
+	font-weight: 700 !important;
+}
+.sciencexlite-screenshot {
+	margin: 20px 10px;
+	width: 24%;
+	float: left;
+	text-align: justify;
+}
+
+.about-wrap table td h3 {
+	margin: 10px 0 15px 10px;
+	padding-left: 20px;
+	text-align: left;
+	font-size: 1.05em;
+	font-weight: 700;
+}
+.about-wrap table td h3.not_pro{
+	color: #999999;
+    text-decoration: line-through;
+}
+.wrap table {
+	border-collapse: collapse;
+}
+
+.about-wrap table thead{
+	background-color: transparent;
+}
+.about-wrap table tbody{
+	background-color: #ffffff;
+	border-bottom: 1px solid #dfdfdf;
+}
+.wrap table th {
+	width: 33%;
+}
+
+.about-wrap table td .table-desc {
+	font-size: 15px;
+	margin: 20px;
+	padding-left: 20px;
+	display: block;
+	text-align: left;
+}
+.wrap table th h3 {
+	color: #3578f3;
+	margin: 15px 0 15px 15px;
+	text-align: center;
+}
+.wrap table th:last-child h3{
+	color: #f36341;
+}
+.wrap table td span {
+	font-size: 25px;
+}
+.wrap table td .dashicons-yes{
+	color: #1bda24;
+}
+.wrap table td .dashicons-no{
+	color: #ff0000;
+}
+table tr .btn-wrapper {
+	padding: 10px 0;
+}
+.under-the-hood .bottom-two-col a.button-secondary,
+.btn-wrapper .button {
+	background-color: #36a4de;
+	color: #fff;
+	font-size: 14px;
+	line-height: 0;
+	padding: 25px 17px;
+	margin-bottom: 10px;
+	font-weight: 700;
+	border: none;
+	margin-top: 20px;
+    margin-left: 20px;
+}
+table tr .btn-wrapper .button:first-child{
+	margin-left: 0;
+}
+.under-the-hood .bottom-two-col a.button-secondary{
+	margin-left: 0;
+}
+.under-the-hood .bottom-two-col a.button-secondary:hover,
+.under-the-hood .bottom-two-col a.button-secondary:focus,
+.btn-wrapper .button:hover,
+.btn-wrapper .button:focus {
+	background: #E14925 none repeat scroll 0 0;
+	color: #fff;
+}
+
+@media (max-width: 1400px) {
+	.about-wrap h1 {
+		font-size: 30px;
+	}
+	.about-wrap .about-text {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.about-wrap .about-text {
+		font-size: 14px;
+	}
+	.about-wrap table td h3,
+	.about-wrap table td {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 980px) {
+	.about-wrap h1 {
+		font-size: 25px;
+	}
+	p.sciencexlite-actions a.button-primary,
+p.sciencexlite-actions a.button-secondary {
+    margin-bottom: 10px;
+}
+	.about-wrap .about-text,
+	.sciencexlite-screenshot {
+		float: none;
+		width: 100%;
+	}
+	.sciencexlite-theme-premade-demo,
+	.sciencexlite-table-wrap{
+		width: 100%;
+		text-align: center;
+	}
+	.under-the-hood .bottom-two-col a.button-secondary, table tr .btn-wrapper .button{
+		padding: 20px 5px;
+		width: 100%;
+	}
+	.btn-wrapper .button.bg-success, .wp-core-ui .bg-success{
+		margin-left: 0;
+	}
+}
