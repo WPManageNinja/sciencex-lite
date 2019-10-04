@@ -798,7 +798,7 @@ h1.sciencex-logo {
 
 /* header */
 .sabbi-page-header {
-  min-height: 450px;
+  min-height: 350px;
   background-color: #3a89c6;
   display: table;
   width: 100%;
@@ -819,7 +819,7 @@ h1.sciencex-logo {
   vertical-align: middle;
 }
   .sabbi-page-header.page-header-lg {
-    min-height: 450px; }
+    min-height: 350px; }
   .sabbi-page-header.single-team-header{
     min-height: 220px;
   }
@@ -1141,6 +1141,7 @@ body .scrolly-nav .pt_60{
 }
 .sciencexlite-content-area{
   padding: 100px 0;
+  overflow: hidden;
 }
 .single .sciencexlite-content-area{
   padding: 100px 0;
@@ -2333,3 +2334,12 @@ p.form-submit {
 
 .mejs-controls .mejs-button button {
   width: 16px !important; }
+
+.alignfull {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}

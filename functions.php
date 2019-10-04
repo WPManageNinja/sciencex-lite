@@ -96,6 +96,11 @@ if ( ! function_exists('sciencexlite_setup')) :
             'flex-width'  => true,
             'flex-height' => true,
         ));
+        
+	    /*
+		 * Enable support for wide alignment class for Gutenberg blocks.
+		*/
+	    add_theme_support( 'align-wide' );
     }
 endif;
 add_action('after_setup_theme', 'sciencexlite_setup');
@@ -206,7 +211,7 @@ function sciencexlite_scripts()
         get_template_directory_uri().'/assets/css/bootstrap-dropdownhover.min.css', array(), '1.0.0');
 
     wp_enqueue_style('sciencexlite-main', get_template_directory_uri().'/assets/css/main.css', array(), '1.0.2');
-    wp_enqueue_style('sciencexlite-style', get_stylesheet_uri(), array(), '1.0.5');
+    wp_enqueue_style('sciencexlite-style', get_stylesheet_uri(), array(), '1.0.7');
 
 
     //Load JS
@@ -223,6 +228,14 @@ function sciencexlite_scripts()
 
 add_action('wp_enqueue_scripts', 'sciencexlite_scripts');
 
+
+/**
+ * Enqueue WordPress theme styles within Gutenberg.
+ */
+function sciencexlite_gutenberg_editor_styles() {
+	wp_enqueue_style( 'sciencexlite-gutenberg-editor', get_theme_file_uri( '/assets/css/gutenberg-editor.css' ), false, '1.0.0', 'all' );
+}
+add_action( 'enqueue_block_editor_assets', 'sciencexlite_gutenberg_editor_styles' );
 
 /**
  * Implement the Custom Header feature.
@@ -262,6 +275,12 @@ require_once get_template_directory().'/inc/wp-sciencexlite-bootstrap-navwalker.
  */
 require_once get_template_directory().'/inc/global-functions.php';
 
+
+/**
+ * Load TGM
+ */
+require get_template_directory() . '/inc/tgm-plugin/class-tgm-plugin-activation.php';
+require get_template_directory() . '/inc/tgm-plugin/sciencex-lite-required-plugins.php';
 
 /**
  * Modify search widget

@@ -135,7 +135,7 @@ class Sciencex_Lite_Admin {
 			<div class="welcome-description-wrap-action">
 				<p class="sciencexlite-actions">
 					<span><?php esc_html_e( 'Sciencex Pro', 'sciencex-lite' ); ?></span>
-					<a href="<?php echo esc_url( apply_filters( 'sciencexlite_pro_theme_url', 'http://sciencex.wpmanageninja.com/' ) ); ?>" class="button button-primary docs" target="_blank"><?php esc_html_e( 'View Live Demo', 'sciencex-lite' ); ?></a>
+					<a href="<?php echo esc_url( apply_filters( 'sciencexlite_pro_theme_url', 'https://sciencex.wpninjathemes.com/' ) ); ?>" class="button button-primary docs" target="_blank"><?php esc_html_e( 'View Live Demo', 'sciencex-lite' ); ?></a>
 					<a href="<?php echo esc_url( apply_filters( 'sciencexlite_pro_theme_url', 'https://wpmanageninja.com/downloads/sciencex-multipurpose-researcher-professor-education-wordpress-theme/' ) ); ?>" class="button button-secondary bg-success docs" target="_blank"><?php esc_html_e( 'Get PRO', 'sciencex-lite' ); ?></a>
 					<a href="<?php echo esc_url( apply_filters( 'sciencexlite_pro_theme_url', 'https://wordpress.org/themes/sciencex-lite/reviews/' ) ); ?>" class="button button-secondary docs" target="_blank"><?php esc_html_e( 'Rate this theme', 'sciencex-lite' ); ?></a>
 				</p>
@@ -322,13 +322,18 @@ class Sciencex_Lite_Admin {
 				</tbody>
 			</table>
 			<div class="sciencexlite-theme-actions btn-wrapper">
-				<a href="<?php echo esc_url( apply_filters( 'sciencexlite_pro_theme_url', 'http://sciencex.wpmanageninja.com/' ) ); ?>" class="button button-secondary" target="_blank"><?php esc_html_e( 'View Live Demo', 'sciencex-lite' ); ?></a>
+				<a href="<?php echo esc_url( apply_filters( 'sciencexlite_pro_theme_url', 'https://sciencex.wpninjathemes.com/' ) ); ?>" class="button button-secondary" target="_blank"><?php esc_html_e( 'View Live Demo', 'sciencex-lite' ); ?></a>
 				<a href="<?php echo esc_url( apply_filters( 'sciencexlite_pro_theme_url', 'https://wpmanageninja.com/downloads/sciencex-multipurpose-researcher-professor-education-wordpress-theme/' ) ); ?>" class="button button-secondary bg-success" target="_blank"><?php esc_html_e( 'Get Pro', 'sciencex-lite' ); ?></a>
 			</div>
 		   </div>
 
 
 			<div class="sciencexlite-theme-premade-demo">
+                <h3><?php esc_html_e('RECOMMENDED PRODUCTS', 'sciencex-lite'); ?></h3>
+                <div class="col-img">
+                    <a href="<?php echo esc_url( 'https://gutendev.com/downloads/guten-post-layout-pro/' ); ?>" target="_blank"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/img/product-add1.png'; ?>" /></a>
+                </div>
+                
 				<h3><?php esc_html_e('PREMADE DEMO', 'sciencex-lite'); ?></h3>
 				<div class="col-img">
 					<img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/img/books-page.png'; ?>" />
@@ -349,7 +354,7 @@ class Sciencex_Lite_Admin {
 					<img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/img/personal-timeline.png'; ?>" />
 				</div>
 				<div class="col-img">
-					<a target="_blank" href="<?php echo esc_url( 'http://sciencex.wpmanageninja.com/' ); ?>">
+					<a target="_blank" href="<?php echo esc_url( 'https://sciencex.wpninjathemes.com/' ); ?>">
 					<img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/img/more.png'; ?>" />
 					</a>
 				</div>

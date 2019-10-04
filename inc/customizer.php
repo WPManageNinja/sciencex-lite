@@ -639,7 +639,7 @@ function sciencexlite_customize_register( $wp_customize ) {
                 </span>
             </p>
             <p style="text-align:center;" class="sciencexlite-upgrade-button">
-                <a style="margin: 10px;" target="_blank" href="http://sciencex.wpmanageninja.com/" class="button button-secondary">
+                <a style="margin: 10px;" target="_blank" href="https://sciencex.wpninjathemes.com/" class="button button-secondary">
                     <?php esc_html_e('Live Demo', 'sciencex-lite'); ?>
                 </a>
                 <a style="margin: 10px;" target="_blank" href="https://wpmanageninja.com/downloads/sciencex-multipurpose-researcher-professor-education-wordpress-theme/" class="button button-secondary">

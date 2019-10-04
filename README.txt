@@ -4,8 +4,8 @@ Theme URI: https://wpmanageninja.com/downloads/sciencex-multipurpose-researcher-
 Author: WPManageNinja
 Author URI: https://wpmanageninja.com/
 Requires at least: 4.0
-Tested up to: 4.9.6
-Stable tag: 1.0.6
+Tested up to: 5.2.3
+Stable tag: 1.0.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: science, researcher, reserach group, proffessor, custom-background, custom-colors, custom-header, custom-menu, custom-logo, featured-images, one-column, right-sidebar, sticky-post, translation-ready, two-columns, blog
@@ -89,6 +89,10 @@ ScienceX Lite bundles the following third-party resources:
 * Screenshot: https://imgur.com/a/aVLyHYt
 
 == Changelog ==
+
+Version 1.0.7
+1. Gutenberg Compatible
+2. Small bug fixed
 
 Version 1.0.6
 1. Added Right Theme URL
