@@ -20,6 +20,8 @@
 </head>
 
 <body <?php body_class(); ?>>
+
+<?php wp_body_open(); ?>
 <?php 
     $sciencexlite_preloader = get_theme_mod('sciencexlite_preloader', true);
     $sciencexlite_page_layout_style = get_theme_mod('sciencexlite_page_layout_style', false);

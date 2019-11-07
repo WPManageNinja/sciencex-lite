@@ -92,7 +92,8 @@ ScienceX Lite bundles the following third-party resources:
 
 Version 1.0.7
 1. Gutenberg Compatible
-2. Small bug fixed
+2. New: Introduced wp_body_open action hook.
+3. Small bug fixed
 
 Version 1.0.6
 1. Added Right Theme URL

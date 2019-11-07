@@ -137,7 +137,7 @@ class Sciencex_Lite_Admin {
 					<span><?php esc_html_e( 'Sciencex Pro', 'sciencex-lite' ); ?></span>
 					<a href="<?php echo esc_url( apply_filters( 'sciencexlite_pro_theme_url', 'https://sciencex.wpninjathemes.com/' ) ); ?>" class="button button-primary docs" target="_blank"><?php esc_html_e( 'View Live Demo', 'sciencex-lite' ); ?></a>
 					<a href="<?php echo esc_url( apply_filters( 'sciencexlite_pro_theme_url', 'https://wpmanageninja.com/downloads/sciencex-multipurpose-researcher-professor-education-wordpress-theme/' ) ); ?>" class="button button-secondary bg-success docs" target="_blank"><?php esc_html_e( 'Get PRO', 'sciencex-lite' ); ?></a>
-					<a href="<?php echo esc_url( apply_filters( 'sciencexlite_pro_theme_url', 'https://wordpress.org/themes/sciencex-lite/reviews/' ) ); ?>" class="button button-secondary docs" target="_blank"><?php esc_html_e( 'Rate this theme', 'sciencex-lite' ); ?></a>
+					<a href="<?php echo esc_url( apply_filters( 'sciencexlite_pro_theme_url', 'https://wordpress.org/support/theme/sciencex-lite/reviews/' ) ); ?>" class="button button-secondary docs" target="_blank"><?php esc_html_e( 'Rate this theme', 'sciencex-lite' ); ?></a>
 				</p>
 			</div>
 		</div>
